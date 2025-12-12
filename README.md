@@ -58,7 +58,7 @@ organization_services/
         |                       |                       |
         v                       v                       v
 
-+------------------+   +------------------+    +---------------------------+
+ +-----------------+   +------------------+    +---------------------------+
 | organizations    |   | admins           |    | org_<organization_name>  |
 | (Master DB)      |   | (Master DB)      |    | Dynamic Collection        |
 +------------------+   +------------------+    +---------------------------+
@@ -131,5 +131,5 @@ Easy routing
 Developed by-
 **Pratik Tiwari**
 **email:pratik12122005@gmail.com**
-[https://www.linkedin.com/in/pratik-tiwari05/](url)
+**LinkedIn:[https://www.linkedin.com/in/pratik-tiwari05/](url)**
 
