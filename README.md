@@ -136,11 +136,8 @@ Easy routing
 
 ```
 Developed by-
-```
 **Pratik Tiwari**
-```
 **email:pratik12122005@gmail.com**
-```
 **LinkedIn:[https://www.linkedin.com/in/pratik-tiwari05/](url)**
 ```
 
