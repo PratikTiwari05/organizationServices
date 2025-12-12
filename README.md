@@ -20,6 +20,9 @@ _6.Secure password hashing using bcrypt_
 _7.Modular folder structure_
 
 
+## Folder Structure
+
+```
 organization_services/
 │── src/
 │   ├── config/
@@ -41,9 +44,13 @@ organization_services/
 │── index.js
 │── package.json
 │── .gitignore
+```
 
 
 
+## High Level Architecture Diagram
+
+```
                    +---------------------+
                    |     CLIENT (API)    |
                    +----------+----------+
@@ -57,34 +64,11 @@ organization_services/
         -------------------------------------------------
         |                       |                       |
         v                       v                       v
-
- +-----------------+   +------------------+    +---------------------------+
-| organizations    |   | admins           |    | org_<organization_name>  |
-| (Master DB)      |   | (Master DB)      |    | Dynamic Collection        |
-+------------------+   +------------------+    +---------------------------+
-
-
-
-
-                   +---------------------+
-                   |     CLIENT (API)    |
-                   +----------+----------+
-                              |
-                              v
-                   +----------------------+
-                   |    Express Server    |
-                   |   (Route Handlers)   |
-                   +----------+-----------+
-                              |
-        -------------------------------------------------
-        |                       |                       |
-        v                       v                       v
-
 +------------------+   +------------------+    +---------------------------+
 | organizations    |   | admins           |    | org_<organization_name>  |
 | (Master DB)      |   | (Master DB)      |    | Dynamic Collection        |
 +------------------+   +------------------+    +---------------------------+
-
+```
 
 
 1.Master DB stores:
